@@ -1,0 +1,590 @@
+/* defolt css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.md_content {
+    max-width: 1300px;
+    margin: auto;
+}
+
+/* bagain main css */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ====================header_section================ */
+.header {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    z-index: 9999;
+}
+
+.header .left_logo {
+    max-width: 30%;
+    padding: 15px;
+}
+
+.header .left_logo img {
+    width: 100%;
+}
+
+.header .right_menu {}
+
+.header .right_menu ul {
+    margin-bottom: 0px;
+    list-style-type: none;
+    text-align: right;
+}
+
+.header .right_menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.header .right_menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 70px;
+    font-weight: 400;
+}
+
+/* =============  baner section ================= */
+.banar_section {
+    background-image: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .6)), url(https://i.ibb.co/cx0DkZd/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 315px 0px;
+    color: white;
+    background-repeat: no-repeat;
+    margin-top: 77px;
+}
+
+.banar_section .banar_content {}
+
+.banar_section .banar_content h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.banar_section .banar_content h1 {
+    font-size: 60px;
+    margin: 45px 0px;
+    font-weight: bold;
+}
+
+.defult_btn {
+    color: #7d7d7d;
+    background-color: #fcfcfc;
+    padding: 20px 40px;
+    font-size: 21px;
+    font-weight: 600;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+    transition: .4s ease;
+}
+
+.banar_section .defult_btn:hover {
+    background-color: #d7a23b;
+    color: white;
+}
+
+/* ============= price section ================= */
+.price_section {
+    background-color: #f7f9ff;
+    padding: 40px 0px;
+}
+
+.price_section .price_top_section {}
+
+.price_section .price_top_section h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.price_section .price_top_section h3 {
+    font-size: 19px;
+    color: #000;
+    margin-bottom: 90px;
+    font-weight: 400;
+}
+
+.price_section .price_item {
+    background-color: #ffffff;
+    width: 32%;
+    margin-right: 2%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+}
+
+.price_section .price_item:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.price_section .price_item:last-child {
+    margin: 0;
+}
+
+.price_section .price_item hr {
+
+    width: 100%;
+    border-top: 1px solid #e4e4e4;
+}
+
+.price_section .price_item .price_top_wrapper {
+    padding: 35px 30px;
+    transition: all .4s;
+    border-radius: 6px 6px 0 0;
+}
+
+.price_section .price_item .price_top_wrapper h3 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.price_section .price_item .price_top_wrapper h1 {
+    font-size: 55px;
+    margin-bottom: 45px;
+    background-color: #f5f5f5;
+    padding: 3px 12px;
+    font-weight: bold;
+    transition: all .4s;
+}
+
+.price_section .price_item .price_top_wrapper span {
+
+    font-size: 20px;
+}
+
+.price_section .price_item .price_top_wrapper h4 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.price_section .price_item .price_top_wrapper p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 37px;
+
+}
+
+.price_section .price_item .price_buttom_wrapper {
+    padding: 35px 50px;
+}
+
+.price_section .price_item .price_buttom_wrapper li {
+    list-style-type: none;
+    line-height: 3.5;
+    font-size: 22px;
+    font-weight: 300;
+    color: #767676;
+    letter-spacing: normal;
+}
+
+.price_section .price_item .price_buttom_wrapper .fas {
+    color: #e79230;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.price_section .price_item .button_price_item {
+    text-align: center;
+    margin: 52px 0 23px 0;
+}
+
+.price_section .price_item .button_price_item a {
+    font-size: 21px;
+    background-color: #ffffff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    padding: 15px 30px;
+    font-weight: 500;
+    color: #6278df;
+    border-radius: 6px;
+    line-height: 2.5;
+    transition: all .4s;
+}
+
+.price_section .price_item:hover .price_top_wrapper,
+.price_section .price_item:hover h1,
+.price_section .price_item:hover .button_price_item a {
+    background-color: #d7a23b;
+    color: #fff;
+}
+
+.price_section .price_item:hover .price_top_wrapper p {
+    color: #fff;
+    transition: all .4s;
+}
+
+/* ============= tieem section =================  */
+.teem_section {
+    padding: 75px 0px;
+}
+
+.teem_section .teem_top_section h1 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 50px;
+}
+
+.teem_section .teem_member {
+    width: 23%;
+    margin-right: 2%;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all .4s;
+    margin-top: 30px;
+}
+
+.teem_section .teem_member .teem_member_wrapper img {
+    width: 100%;
+}
+
+.teem_section .teem_member .teem_member_wrapper {
+    transition: all .4s;
+    border: 7px double #d7a23b;
+}
+
+.teem_section .teem_member .teem_member_wrapper .teem_member_bio {
+    padding: 30px 20px;
+    line-height: 35px;
+}
+
+.teem_section .teem_member .teem_member_wrapper .teem_member_bio h2 {
+    font-weight: 500;
+}
+
+.teem_section .teem_member .teem_member_wrapper .teem_member_bio p {
+    font-size: 25px;
+    font-weight: 300;
+    color: #767676;
+}
+
+.teem_section .teem_member .teem_member_wrapper:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+
+/* ============= from_section ================= */
+.form_section {
+    padding: 100px 0px;
+    background-color: #f7f9ff;
+}
+
+.form_section .form_top_section h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000a6;
+}
+
+.form_section .form_top_section h1 {
+    font-size: 47px;
+    font-weight: 500;
+    padding: 40px 0px;
+    padding-top: 32px;
+}
+
+.form_section .form_input_item {
+    width: 50%;
+    margin: auto;
+}
+
+.defult_intup {
+    width: 100%;
+    color: #232323;
+    border: 1px solid #aa972c;
+    box-sizing: border-box;
+    padding: 20px 24px;
+    border-radius: 6px;
+    margin: 0;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    font-size: 19px;
+    font-weight: 300;
+    transition: all .4s;
+    outline: none;
+    /*! margin-bottom: 25px; */
+}
+
+.defult_intup:focus {
+    border-color: #09927f;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+
+.defult_submit {
+    background-color: #aa972c;
+    width: 39%;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 18px 0px;
+    border-radius: 6px;
+    margin: 0;
+    font-size: 21px;
+    font-weight: 600;
+    border: 2px solid #aa972c;
+    margin-left: 31px;
+    letter-spacing: 1px;
+    transition: all .4s;
+    margin-top: 25px;
+}
+
+.defult_submit:hover {
+    background-color: white;
+    color: #e1b96b;
+    border-color: #aa972c;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+/* ============= blog_section ================= */
+.blog_section {
+    margin-bottom: 5px;
+}
+
+.blog_section h2 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.blog_section .img {}
+
+.blog_section img {
+    width: 100%;
+}
+
+.blog_section .blog_content {
+    margin-top: 25px;
+}
+
+.blog_section .t_cotent {
+    padding: 20px;
+}
+
+.blog_section .t_cotent h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0000009e;
+    margin-bottom: 30px;
+}
+
+.blog_section .t_cotent p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+/*  ============= testmonial section =================  */
+.testmonial_section {
+    background-color: #f7f9ff;
+    padding: 50px;
+}
+
+.testmonial_section .testmonial_top_section {}
+
+.testmonial_section .testmonial_top_section p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #000;
+}
+
+.testmonial_section .testmonial_top_section h1 {
+    font-size: 42px;
+    font-weight: 400;
+    padding: 40px 0px;
+}
+
+.testmonial_section .testmonial_wrapper {
+    width: 31%;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_top {
+    background-color: #ffffff;
+    padding: 50px;
+    font-size: 21px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    transition: all .4s;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_top:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_top p::before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0px;
+    left: 28px;
+    font-size: 79px;
+    opacity: .1;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_top::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -20px;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom {
+    padding: 40px 0px 50px 65px;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom .testmonial_img {
+    width: 30%;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom .testmonial_img img {
+    border: 10px solid #aa972c;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom .testmonial_bio {
+    width: 57%;
+    margin: 14px 0px 0px 3px;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom .testmonial_bio h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.testmonial_section .testmonial_wrapper .testmonial_buttom .testmonial_bio span {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #767676;
+}
+
+
+/* ============= Contact_section ================= */
+.Contact_section {
+    padding: 50px;
+}
+
+.Contact_section .map {
+    width: 50%;
+}
+
+.Contact_section .Contact_us {
+    width: 65%;
+    margin: auto;
+}
+
+.Contact_section .Contact_us h2 {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.Contact_section .Contact_us p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #767676;
+    line-height: 1.5;
+}
+
+.Contact_section .Contact_us form {
+    margin-top: 40px;
+}
+
+.Contact_section .Contact_us form .w100 {
+    width: 100%;
+}
+
+.Contact_section .Contact_us form .w50 {
+    width: 48%;
+    box-sizing: border-box;
+    margin-top: 25px;
+}
+
+.Contact_section .Contact_us form .textarea {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.Contact_section .Contact_us form .submit {
+    margin-left: 0;
+    width: 260px;
+}
+
+
+/*  ============= footer_section ================= */
+.footer_section {
+    padding: 20px;
+}
+
+.footer {
+    font-size: 20px;
+}
